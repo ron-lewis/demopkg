@@ -1,0 +1,27 @@
+Package: demopkg
+Title: A Demo Package for Demostrating R Packages
+Version: 0.0.1
+Authors@R: 
+    person(given = "Ron", 
+           family = "Lewis", 
+           email = "ron.lewis@dfo-mpo.gc.ca", 
+           role = c("aut", "cre"))
+Description: This package does a something. It's just a demostration package though, so don't expect much. 
+  However, I would like to explore what happens with formatting. Did I just create a new paragraph.
+    Or does this do it as well?
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    dplyr,
+    ggplot2,
+    magrittr,
+    tibble
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
